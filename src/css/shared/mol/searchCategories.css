@@ -1,0 +1,22 @@
+.SearchCategories {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.SearchCategories a {
+    font-size: 0.8em;
+    padding: 18px 10px;
+    text-decoration: none;
+    color: #434647;
+    border-bottom: inset 3px transparent;
+}
+
+.SearchCategories a:hover {
+    color: #434647;
+    border-bottom: inset 3px #444647;
+}

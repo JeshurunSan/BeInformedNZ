@@ -1,0 +1,236 @@
+.HomePage {
+  display: flex;
+  flex-flow: inherit;
+  flex: 1;
+  background: url("../../img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-content {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+
+.SearchEngineContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchEngineContainer .SearchContainer {
+  line-height: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.SearchEngineContainer .Logo a span {
+  font-size: 3.5em;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.SearchEngineContainer .home-description {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 15px;
+  text-align: justify;
+  max-width: 600px;
+}
+
+.SearchEngineContainer .SearchContainer .input-search input {
+  line-height: 50px;
+  height: 50px;
+}
+
+.SearchEngineContainer .SearchContainer .input-search button {
+  line-height: 50px;
+  height: 50px;
+}
+
+.Search-home {
+  width: 100%;
+  max-width: 760px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Search-home input {
+  line-height: 50px;
+  flex-grow: 1;
+}
+
+.HomePage .Header .Logo {
+  display: none;
+}
+
+/* .header .NotSignedNavBar .Navigation {
+  display: none;
+} */
+
+.HomePage .Header .SearchContainer {
+  display: none;
+}
+
+.HomePage .Footer {
+  background: transparent;
+}
+
+.HomePage .Footer .Navigation {
+  display: none;
+}
+
+.HomePage .Footer .Copyright {
+  line-height: 20px;
+  COLOR: #FFF;
+}
+
+.HomePage .Footer .Copyright span {
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+}
+
+.home-description {
+  font-size: 0.85em;
+  color: #aaa;
+}
+
+.HomePage .Footer {
+  padding: 10px;
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.HomePage .Footer .Subscribe {
+  display: none;
+}
+
+.HomePage .Footer .SocialNavigation {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 5px 10px;
+}
+
+.HomePage .Footer .SocialNavigation a {
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.HomePage .Footer .SocialNavigation a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.NotSignedNavBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NotSignedNavBar .navbar-Logo {
+  display: none;
+}
+
+.NotSignedNavBar .Navigation {
+  padding: 0 0 0 50px;
+  flex-grow: 1;
+}
+
+.NotSignedNavBar .SearchContainer {
+  display: none;
+}
+
+@media (max-width: 849px) {
+  .navbar-Logo .Logo {
+    display: none;
+  }
+
+  .NotSignedNavBar .SearchContainer {
+    display: none;
+  }
+}
+.home-content .Navigation {
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content .Navigation a span {
+  display: flex !important;
+}
+
+.home-content .Navigation a {
+  background: dodgerblue;
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  transition: all ease 0.2s;
+  font-size: 0.6em;
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+}
+
+.home-content .Navigation a:hover {
+  background: #1b81e5;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+  transform: scale(0.98);
+}
+
+@media only screen and (max-width: 600px) {
+  .SearchEngineContainer .Logo a span {
+    font-size: 2em;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+
+  .HomePage .Footer .SocialNavigation {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    padding: 5px 10px;
+    width: 35px;
+    transition: ease all 0.2s;
+  }
+
+  .HomePage .Footer .SocialNavigation a span {
+    margin: 0;
+  }
+  
+  .HomePage .Footer .SocialNavigation a {
+    padding: 0 8px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .HomePage .Footer .SocialNavigation a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}

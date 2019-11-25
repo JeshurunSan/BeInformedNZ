@@ -1,0 +1,16 @@
+.Copyright {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 0.75em;
+  position: fixed;
+  /* background: #fff; */
+  bottom: 0;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Copyright {
+    display: none;
+  }
+}

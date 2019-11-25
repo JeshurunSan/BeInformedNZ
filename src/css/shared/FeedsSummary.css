@@ -1,0 +1,84 @@
+.post-wrap {
+  height: 450px;
+  width: 600px;
+  background: rgb(255, 255, 255);
+  margin: 10px 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+/* Title */
+
+.feedsTitle {
+  height: 75px;
+}
+
+.title-img {
+  margin-top: 25px;
+  margin-left: 20px;
+  height: 75px;
+  width: 75px;
+  background: #aaa;
+  border-radius: 50px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.title-info h1 {
+  height: 10px;
+  width: 500px;
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 10px;
+  /* float: left; */
+  font-size: 20px;
+  font-weight: 600;
+}
+.title-info p {
+  height: 80px;
+  width: 800px;
+  margin: 5px 0 0 90px;
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+/* Media Section */
+
+.media-sec {
+  margin-top: 20px;
+  height: 300px;
+  max-width: 930px;
+  width: 600px;
+  background: #aaa;
+}
+
+/*  Bottom Section  */
+
+.bottom-links {
+  float: right;
+}
+
+#comment-box {
+  height: 20px;
+  width: 100px;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italicized;
+  line-height: 50px;
+  /* text-align: right; */
+  margin: 10px 20px 0 0;
+  /* position: absolute; */
+  /* right: 0; */
+}
+
+#comment-box a {
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#comment-box a:hover {
+  text-decoration: underline;
+}

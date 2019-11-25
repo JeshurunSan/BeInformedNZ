@@ -1,0 +1,22 @@
+.Categories {
+  height: fit-content;
+  width: 200px;
+  display: flex;
+  flex-flow: column;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.Categories form {
+  display: flex;
+  flex-flow: column;
+}
+
+.Categories form label {
+  color: rgb(104, 104, 104);
+  font-size: 0.9em;
+  padding: 5px 0;
+}

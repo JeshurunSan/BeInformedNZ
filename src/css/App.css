@@ -1,0 +1,13 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.App .Navigation a span {
+  display: none;
+}

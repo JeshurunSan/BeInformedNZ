@@ -1,0 +1,21 @@
+.NotSigned {
+  font-size: 0.8em;
+  display: inline-block;
+  margin: 0;
+  right: 0;
+  padding: 0 50px;
+  color: #888;
+}
+
+/* .NotSigned b {
+  font-weight: normal;
+} */
+
+.NotSigned .Links {
+  color: #000;
+  text-decoration: none;
+}
+
+.NotSigned .Links:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+.social-card {
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    flex-flow: column wrap;
+    background: #fff;
+    margin: 0 0 20px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.social-card .smc-header {
+    width: 100%;
+    max-width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+
+.social-card .smc-header .smc-title {
+    line-height: 30px;
+    font-size: 1.1em;
+}
+
+.social-card .smc-header .smc-author {
+    font-size: 0.75em;
+}
+
+.social-card .smc-image {
+    background: #bbb;
+    object-fit: fill;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.social-card .smc-footnote {
+    padding: 15px 30px; 
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.social-card .smc-footnote a {
+    padding: 0 10px; 
+    color: #444467;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.social-card .smc-footnote i {
+    color: #bbb;
+}

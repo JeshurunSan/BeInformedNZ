@@ -1,0 +1,51 @@
+.Announcement {
+    /* Position */
+
+    background: #fff;
+    height: 200px;
+    width: 250px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 40px;
+}
+.Announcement span {
+    font-size: 1em;
+}
+
+.Announcement .annce-head, .annce-head a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Announcement .annce-body a {
+    text-decoration: none;
+}
+
+.annce-head {
+    background: dodgerblue;
+    padding: 0 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.annce-body {
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.annce-body a {
+    line-height: 30px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    color: #ebebeb;
+    background: dodgerblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

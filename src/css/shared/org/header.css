@@ -1,0 +1,10 @@
+.Header {
+  width: 100%;
+  min-height: 55px;
+  background: dodgerblue;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid dodgerblue;
+}

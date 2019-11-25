@@ -1,0 +1,11 @@
+.FeedBox {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-flow: column;
+}
+
+.FeedBox a {
+  text-decoration-line: none;
+  color: #444467;
+}

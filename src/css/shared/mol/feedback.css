@@ -1,0 +1,11 @@
+.Feedback {
+    height: fit-content;
+    margin: 20px 0;
+    padding: 20px;
+    height: auto;
+    max-width: 900px;
+    border-radius: 3px;
+    background: #fff;
+    display: flex;
+    flex-flow: column;
+}

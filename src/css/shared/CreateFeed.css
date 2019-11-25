@@ -1,0 +1,130 @@
+.container2 {
+  width: 100%;
+  background-image: url("../../img/bg.png");
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-label {
+  color: #03a9f4;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.CreateFeed {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.CreateFeed-form {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.CreateFeed-form .create-left, .create-right{
+  width: 100%;
+  max-width: 410px;
+  margin: 0 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.CreateFeed h1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.CreateFeed .input-field {
+  position: relative;
+}
+
+.CreateFeed .input-field input,
+textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.CreateFeed .input-field input:focus,
+textarea {
+  border-bottom: 1px solid #03a9f4;
+}
+
+.CreateFeed .input-field label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.CreateFeed .input-field input:focus ~ label,
+.CreateFeed .input-field input:valid ~ label,
+.CreateFeed .input-field textarea:focus ~ label,
+.CreateFeed .input-field textarea:valid ~ label {
+  top: -25px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 14px;
+}
+
+.CreateFeed .input-field #content {
+  height: 50px;
+}
+
+.CreateFeed .btn button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+.create-right img {
+  height: 250px;
+  width: 100%;
+  object-fit: fill;
+  margin: 20px 0;
+}
+
+.create-right button {
+  width: fit-content;
+}

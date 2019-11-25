@@ -1,0 +1,35 @@
+.Subscribe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Subscribe span {
+    padding: 0 10px;
+    line-height: 50px;
+    color: #ebebeb;
+}
+
+.Subscribe .SubscribeFunction {
+    box-sizing: border-box;
+    border-radius: 3px;
+    min-width: 400px;
+    background: #fff;
+}
+
+.Subscribe .SubscribeFunction input {
+    border-radius: 3px;
+    padding: 0 10px;
+    line-height: 50px;
+    width: 280px;
+    border: none;
+}
+
+.Subscribe .SubscribeFunction button {
+    border-radius: 3px;
+    line-height: 50px;
+    width: 100px;
+    border: none;
+}

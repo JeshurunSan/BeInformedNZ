@@ -1,0 +1,14 @@
+.ArticlePage {
+    display: flex;
+    flex-flow: inherit;
+    height: 100%;
+}
+
+.article-content {    
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background: DodgerBlue;
+}

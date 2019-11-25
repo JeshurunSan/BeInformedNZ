@@ -1,0 +1,18 @@
+.LoginStatus {
+    font-size: 0.9em;
+    line-height: 55px;
+    color: #aaa;
+}
+
+.LoginStatus a {
+    padding: 0 10px;
+    font-size: 0.9em;
+    line-height: 55px;
+    text-decoration: none;
+    color: #434647;
+}
+
+.LoginStatus a:hover {
+    text-decoration: underline;
+
+}

@@ -1,0 +1,20 @@
+.Navigation a {
+  font-size: 0.8em;
+  padding: 17px 10px;
+  line-height: 55px;
+  text-decoration: none;
+  color: #434647;
+  border-bottom: inset 3px transparent;
+}
+
+.Navigation a:hover,
+.Navigation a:active {
+  color: #434647;
+  border-bottom: inset 3px #444647;
+}
+
+@media (max-width: 850px) {
+  .Navigation {
+    display: none;
+  }
+}

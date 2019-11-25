@@ -1,0 +1,84 @@
+.SignInPage {
+    display: flex;
+    flex-flow: inherit;
+    height: 100%;
+}
+
+.SignInPage .Header .LoginStatus {
+    display: none;
+}
+
+.signin-content {    
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-content {    
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-float {
+    background: #fff;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signin-float span {
+    color: #ccc;
+    width: 300px;
+    display: flex;
+    padding: 20px;
+}
+
+.signin-float form i {
+    display: flex;
+    font-size: 0.7em;
+    font-style: normal;
+    padding: 0 20px;
+}
+
+.signin-float form input {
+    display: flex;
+    font-style: normal;
+    padding: 0 20px;
+    width: 300px;
+    margin: 20px;
+    line-height: 40px;
+    background:#eee;
+    border: none;
+    border-radius: 3px;
+}
+
+.signin-float form button {
+    display: flex;
+    padding: 0 20px;
+    width: 340px;
+    font-style: normal;
+    margin: 20px;
+    line-height: 40px;
+    background:#444647;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.signin-float form em {
+    display: flex;
+    font-size: 0.80em;
+    font-style: normal;
+    padding: 0 20px;
+}

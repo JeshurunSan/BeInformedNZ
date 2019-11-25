@@ -1,0 +1,64 @@
+.Footer {
+    padding: 10px;
+    min-height: 180px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background: #343637;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .Footer .Subscribe {
+    font-size: 0.8em;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Footer .Copyright{
+  padding: 20px 0 0 0;
+  line-height: 20px;
+}
+
+.Footer .Footer-Navigation {
+  display: flex;
+  min-height: 40px;
+  width: 80%;
+  line-height: 50px;
+  justify-content: space-around;
+}
+
+.Footer .Footer-Navigation {
+  display: flex;
+  width: 80%;
+  line-height: 55px;
+  justify-content: space-around;
+  margin: 0;
+}
+
+ .Footer .Navigation a {
+  padding: 10px;
+  color: #aaa;
+  border: inset 1px rgba(255,255,255,0.0);
+  border-radius: 2px;
+}
+
+.Footer .Navigation a:hover {
+  color: #aaa;
+  border: inset 1px rgba(255,255,255,0.3);
+}
+
+.Footer .SocialNavigation a {
+  padding: 8px;
+  font-size: 1.3em;
+  color: rgba(255,255,255,0.3);
+}
+
+.Footer .SocialNavigation a:hover {
+  color: rgba(255,255,255,0.8);
+}

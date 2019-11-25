@@ -1,0 +1,25 @@
+.logo {
+  display: inline-block;
+  padding: 0 50px;
+  color: black;
+}
+
+.logo span {
+  font-size: 1em;
+}
+
+.logo b {
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+.logo i {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.logo sup {
+  text-transform: uppercase;
+  font-size: 0.5em;
+}

@@ -1,0 +1,68 @@
+.SearchPage {
+  top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: inherit;
+  flex: 1;
+}
+
+.search-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  background: dodgerblue;
+  align-items: center;
+}
+
+.search-content .SearchFunction {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.search-content .SearchCategories {
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.search-content .SearchStats {
+  width: 70%;
+  max-width: 900px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+}
+
+.search-content .SearchFunction .SearchContainer {
+  width: 60%;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-content .SearchFunction .SearchContainer input {
+  line-height: 50px;
+  flex-grow: 1;
+}
+
+.SearchPage .Header .SearchContainer {
+  display: none;
+}
+
+.SearchPage .Header .Navigation {
+  width: 60%;
+}
+
+.SearchPage .jumbotron {
+  align-items: center;
+}

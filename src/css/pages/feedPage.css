@@ -1,0 +1,52 @@
+.Feed {
+  display: flex;
+  flex-flow: inherit;
+}
+
+.feed-con {
+  height: 100%;
+  display: flex;
+}
+
+.Feed .Header .SearchContainer {
+  display: none;
+}
+
+/* .Feed .feed-content .SearchFunction .SearchContainer .input-search button {
+  display: none;
+} */
+
+.feed-content {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  background: rgb(250, 250, 250);
+  /* background: url("../../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  align-items: center;
+}
+
+.feed-content .SearchFunction {
+  width: 100%;
+  background: dodgerblue;
+  display: -webkit-flex;
+  display: flex;
+  flex: 1;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.feed-content .feed-container {
+  padding: 20px 0;
+  height: fit-content;
+
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

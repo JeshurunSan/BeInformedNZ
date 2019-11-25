@@ -1,0 +1,22 @@
+.Logo {
+  margin: 0 20px;
+}
+
+.Logo a {
+  text-decoration: none;
+  color: #434647;
+  line-height: 50px;
+}
+
+.Logo a span i {
+  font-style: normal;
+}
+
+.Logo a span b {
+  text-transform: uppercase;
+}
+
+.Logo a span sup {
+  text-transform: uppercase;
+  font-size: 0.5em;
+}

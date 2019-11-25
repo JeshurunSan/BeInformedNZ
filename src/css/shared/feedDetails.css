@@ -1,0 +1,268 @@
+.DetailsContainer {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+}
+
+.feedDetails {
+  background: #fff;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+/*  Title  */
+
+.title {
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  text-transform: Normal;
+  line-height: 50px;
+  font-size: 2em;
+  color: #444647;
+}
+.details {
+  height: fit-content;
+  width: 100%;
+  line-height: 30px;
+  font-size: 0.80em;
+  padding: 0 20px 10px 20px;
+  color: #444647;
+  font-weight: normal;
+}
+
+.details a {
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #444647;
+}
+
+.details span { 
+  font-size: 1em;
+  margin: 0 5px;
+  padding: 0 5px 0 0;
+  color: #000;
+}
+
+.details i {
+  padding: 0 5px;
+  color: #bbb;
+}
+
+.fa {
+  font-size: 18px;
+}
+
+/*  Media Section  */
+
+.FeedMedia {
+  display: flex;
+  flex-flow: row wrap;
+  height: fit-content;
+  width: 100%;
+  justify-content: center;
+}
+
+.image {
+  height: 300px;
+  max-width: 500px;
+  width: 100%;
+  background: #aaa;
+}
+
+.map {
+  object-fit: fill;
+  height: 300px;
+  max-width: 400px;
+  width: 100%;
+  background: #888;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  Rating Section  */
+/* User Rating ---------------------------------- */
+
+
+.FeedRating { 
+  display: flex;
+  width: 300px;
+  padding: 0 20px;
+}
+
+.heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fa {
+  font-size: 18px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  margin-top: 10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: rgba(200, 200, 200, 1);
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+  width: 60%;
+  height: 18px;
+  background-color: rgba(150, 150, 150, 1);
+}
+.bar-4 {
+  width: 30%;
+  height: 18px;
+  background-color: rgba(150, 150, 150, 1);
+}
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  background-color: rgba(150, 150, 150, 1);
+}
+.bar-2 {
+  width: 4%;
+  height: 18px;
+  background-color: rgba(150, 150, 150, 1);
+}
+.bar-1 {
+  width: 15%;
+  height: 18px;
+  background-color: rgba(150, 150, 150, 1);
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 300px) {
+  .side,
+  .middle {
+    width: 100%;
+  }
+  .right {
+    display: block;
+  }
+}
+
+.Rating {
+  height: 250px;
+  max-width: 300px;
+  width: 350px;
+  float: left;
+}
+
+.Rating p,
+span {
+  font-size: 12px;
+}
+
+/*  Description Section  */
+
+.secondRow {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0;
+  border-bottom: solid 1px #ebebeb;
+}
+.secondRow .FeedDescription {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.profile {
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  flex-flow: column;
+  padding: 0 20px;
+}
+
+.profile p {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 20px;
+}
+
+/*  Comment Section */
+
+.comments {
+  height: 100%;
+  width: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.comments p {
+  padding: 0 20px;
+}
+
+/* Delete this afterwards ################################### */
+.comment-wrap {
+  background: #efefef;
+  margin: 40px 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.comment-box {
+}
+
+.comment-box span {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  display: flex;
+}
+.comment-box p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.80em;
+}
+
+/*  Loading */
+
+.loading {
+  text-align: center;
+}

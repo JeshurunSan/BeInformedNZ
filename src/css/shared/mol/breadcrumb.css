@@ -1,0 +1,30 @@
+.breadcrumb {
+    padding: 0 20px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    background: #ddd;
+    color: #444647;
+}
+
+.breadcrumb span {
+    padding: 5px;
+}
+
+.breadcrumb span i {
+    padding: 0 15px;
+    font-style: normal;
+    color: #999;
+}
+
+.breadcrumb span a {
+    padding: 0 15px;
+    color: #444647;
+    text-decoration: none;
+}
+
+.breadcrumb span a:hover {
+    text-decoration: underline;
+}
